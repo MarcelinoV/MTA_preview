@@ -27,6 +27,8 @@ def scraper(link):
                                             # so the files are a good size
 
     tsdata.close()
+    
+    return 'Done'
 
 # note that the link parameter in this function has to be one of vars above!
 
